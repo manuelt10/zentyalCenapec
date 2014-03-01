@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #1b2142;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+.head
+{
+	margin: 0;
+}
+.head .separator
+{
+	height : 45px;
+	background-image: url('../img/nav-lines.png'); 
+	background-repeat: repeat-x; 
+}
+.midContent
+{
+	background: url('../img/body-overlay.png') repeat center top;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.midContent .textWrapper
+{
+	width: 50%;
+	text-align: center;
+	
+}
+.midContent .textWrapper h1
+{
+	margin: 0;
+	padding-top: 25px;
+	font-size: 4em;
+}
+.midContent p
+{
+	font-size: 1.5em;
+}
+.midContent a
+{
+	text-decoration: none;
+	color: #088600;
+}
+.midContent a:hover
+{
+	color: #1b2142;
+}
+.foot
+{
+	height: 100%;
+}
+.foot .pageback
+{
+	background: url('../img/wood.png') repeat;
+	
+}
+.foot .pagebreak
+{
+	background: url('../img/ripped-paper-divider.png') repeat-x;
+}
+.foot img
+{
+	margin-top: 50px;
+}
